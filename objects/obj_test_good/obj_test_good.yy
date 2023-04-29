@@ -2,17 +2,17 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_test_good",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Объекты",
     "path": "folders/Объекты.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_goods_parrent",
+    "path": "objects/obj_goods_parrent/obj_goods_parrent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,7 +26,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mause_moving","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"False","varType":3,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_test",

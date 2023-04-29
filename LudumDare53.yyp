@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Временные шкалы","folderPath":"folders/Временные шкалы.yy",},
@@ -38,6 +38,7 @@
   "resources": [
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"obj_player_controller","path":"objects/obj_player_controller/obj_player_controller.yy",},},
+    {"id":{"name":"obj_goods_parrent","path":"objects/obj_goods_parrent/obj_goods_parrent.yy",},},
     {"id":{"name":"spr_conveyor","path":"sprites/spr_conveyor/spr_conveyor.yy",},},
     {"id":{"name":"obj_test_good","path":"objects/obj_test_good/obj_test_good.yy",},},
     {"id":{"name":"spt_game_background","path":"sprites/spt_game_background/spt_game_background.yy",},},

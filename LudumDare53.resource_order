@@ -20,6 +20,7 @@
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"obj_player_controller","order":2,"path":"objects/obj_player_controller/obj_player_controller.yy",},
+    {"name":"obj_goods_parrent","order":3,"path":"objects/obj_goods_parrent/obj_goods_parrent.yy",},
     {"name":"spr_conveyor","order":1,"path":"sprites/spr_conveyor/spr_conveyor.yy",},
     {"name":"obj_test_good","order":1,"path":"objects/obj_test_good/obj_test_good.yy",},
   ],
