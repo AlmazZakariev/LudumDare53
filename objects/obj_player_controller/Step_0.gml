@@ -91,7 +91,7 @@ else
 		_y =_y - sprite_get_height(spr_ind)/2;
 		instance_create_layer(_x+_conveyor_part*200, _y, "goods_instances", _obj);
 	}
-	alarm_set(0, 60*5);
+	alarm_set(0, 60*global.timer + 7); //где 7 - количество кадров спрайта конвейера
 	///////////////////////////////////////////////////////////////////
 	
 	

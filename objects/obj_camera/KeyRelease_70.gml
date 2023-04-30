@@ -13,6 +13,14 @@ if(sprite_index == spr_camera1)
 	/// @DnDSaveInfo : "spriteind" "spr_camera2"
 	sprite_index = spr_camera2;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3F9420A9
+	/// @DnDParent : 50FF7862
+	/// @DnDArgument : "expr" "2"
+	/// @DnDArgument : "var" "global.box_num"
+	global.box_num = 2;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -28,4 +36,12 @@ else
 	/// @DnDSaveInfo : "spriteind" "spr_camera1"
 	sprite_index = spr_camera1;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 48CFE6EC
+	/// @DnDParent : 00DBFF02
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "var" "global.box_num"
+	global.box_num = 1;
 }
