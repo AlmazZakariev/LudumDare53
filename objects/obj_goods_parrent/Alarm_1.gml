@@ -18,6 +18,7 @@ if(distance_to_point(box_id.x, box_id.y) <10)
 		//правильный бокс
 		effect_create_above(8, x + 0, y + 0, 1, $FF1499FF & $ffffff);
 		instance_destroy();
+		global.money += profit;
 	}
 	else
 	{
@@ -26,12 +27,15 @@ if(distance_to_point(box_id.x, box_id.y) <10)
 			//неправильный бокс + палево
 		effect_create_above(0, x + 0, y + 0, 2, $FF0000FF & $ffffff);
 		instance_destroy();
+		global.stress +=20;
 		}
 		else
 		{
 			//неправильный бокс без палева
 		effect_create_above(3, x + 0, y + 0, 1, $ffa500FF & $ffffff);
 		instance_destroy();
+		global.money += profit;
+		global.stress += stress;
 		}
 	}
 	

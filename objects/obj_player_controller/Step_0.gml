@@ -51,13 +51,14 @@ else
 	//конец выбора участков конвейера
 	
 	//365 - x центра первого куска контейнера. остальные +200. y = 590
+	//390 || +180
 	//распределние товаров по участкам
 	//шиза
 	//sprite_get_width(object_get_sprite(obj_good_blue))
 	/////////////////////////////////////////////////////////////////////
 	for(k = 0; k<difficulty; k+=1)
 	{
-		var _x = 140+random(30);
+		var _x = 210+random(30);
 		var _y = 570 + random(40);
 		var _conveyor_part = ds_map_find_value(slots_map, k);
 		var spr_ind = -1;
@@ -67,29 +68,37 @@ else
 			case 1	:
 			var _obj = obj_good_blue;
 			spr_ind = object_get_sprite(obj_good_blue);
-			_y = _y - 50;
+			_y = _y +15;
+			//_x = _x +11;
 			break;
 			case 2	:
 			var _obj = obj_good_default;	
 			spr_ind = object_get_sprite(obj_good_default)
+			_y = _y +15;
+			_x = _x +5;
 			break;
 			case 3	:
 			var _obj = obj_good_red;	
 			spr_ind = object_get_sprite(obj_good_red);
-			_y = _y - 20;
+			_y = _y +15;
+			_x = _x +20;
 			break;
 			case 4	:
 			var _obj = obj_good_violet;
 			spr_ind = object_get_sprite(obj_good_violet);
+			_y = _y +15;
+			_x = _x +10;
 			break;
 			case 5	:
 			var _obj = obj_good_yellow;
 			spr_ind = object_get_sprite(obj_good_yellow);
+			_y = _y +15;
+			_x = _x +5;
 			break;
 		}
 		_x = _x - sprite_get_width(spr_ind)/2;
 		_y =_y - sprite_get_height(spr_ind)/2;
-		instance_create_layer(_x+_conveyor_part*200, _y, "goods_instances", _obj);
+		instance_create_layer(_x+_conveyor_part*180, _y, "goods_instances", _obj);
 	}
 	alarm_set(0, 60*global.timer + 7); //где 7 - количество кадров спрайта конвейера
 	///////////////////////////////////////////////////////////////////

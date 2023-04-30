@@ -22,6 +22,8 @@
     {"name":"Шрифты","order":7,"path":"folders/Шрифты.yy",},
     {"name":"Boxes","order":6,"path":"folders/Спрайты/room_items/Boxes.yy",},
     {"name":"boxes","order":5,"path":"folders/Объекты/room_items/boxes.yy",},
+    {"name":"HUD","order":4,"path":"folders/Спрайты/HUD.yy",},
+    {"name":"HUD","order":8,"path":"folders/Объекты/HUD.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
@@ -39,6 +41,7 @@
     {"name":"spr_game_background2","order":1,"path":"sprites/spr_game_background2/spr_game_background2.yy",},
     {"name":"obj_box_5","order":2,"path":"objects/obj_box_5/obj_box_5.yy",},
     {"name":"obj_box_parrent","order":3,"path":"objects/obj_box_parrent/obj_box_parrent.yy",},
+    {"name":"spr_stress","order":1,"path":"sprites/spr_stress/spr_stress.yy",},
     {"name":"obj_box_4","order":5,"path":"objects/obj_box_4/obj_box_4.yy",},
     {"name":"obj_good_blue","order":1,"path":"objects/obj_good_blue/obj_good_blue.yy",},
     {"name":"spr_good_blue","order":1,"path":"sprites/spr_good_blue/spr_good_blue.yy",},
