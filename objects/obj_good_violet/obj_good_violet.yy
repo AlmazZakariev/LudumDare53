@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object5",
+  "name": "obj_good_violet",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Объекты",
-    "path": "folders/Объекты.yy",
+    "name": "goods",
+    "path": "folders/Объекты/goods.yy",
   },
   "parentObjectId": {
     "name": "obj_goods_parrent",
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite4",
-    "path": "sprites/Sprite4/Sprite4.yy",
+    "name": "spr_good_violet",
+    "path": "sprites/spr_good_violet/spr_good_violet.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_test_good",
+  "name": "obj_good_default",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Объекты",
-    "path": "folders/Объекты.yy",
+    "name": "goods",
+    "path": "folders/Объекты/goods.yy",
   },
   "parentObjectId": {
     "name": "obj_goods_parrent",
@@ -26,13 +26,11 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mause_moving","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"False","varType":3,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_test",
-    "path": "sprites/spr_test/spr_test.yy",
+    "name": "spr_good_default",
+    "path": "sprites/spr_good_default/spr_good_default.yy",
   },
   "spriteMaskId": null,
   "visible": true,
