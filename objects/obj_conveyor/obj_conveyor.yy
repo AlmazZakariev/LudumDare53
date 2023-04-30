@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_conveyor",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -31,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_conveyor",
-    "path": "sprites/spr_conveyor/spr_conveyor.yy",
+    "name": "spt_conveyor_anim3",
+    "path": "sprites/spt_conveyor_anim3/spt_conveyor_anim3.yy",
   },
   "spriteMaskId": null,
   "visible": true,

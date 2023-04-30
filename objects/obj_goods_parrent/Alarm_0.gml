@@ -1,0 +1,1 @@
+draw_info = false;
