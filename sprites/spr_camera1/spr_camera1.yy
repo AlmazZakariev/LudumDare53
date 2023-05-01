@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_camera1",
-  "bbox_bottom": 83,
-  "bbox_left": 7,
-  "bbox_right": 87,
-  "bbox_top": 4,
+  "bbox_bottom": 79,
+  "bbox_left": 10,
+  "bbox_right": 90,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"55580b91-fb56-4abf-aeee-546b0652e41e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ccf811fb-a14e-4752-a7d9-24886779d676",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 100,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7cc33712-c12a-466a-8089-0c987e017e1e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d57d07aa-7348-4290-bce6-c27a7eb64feb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "room_items",
-    "path": "folders/Спрайты/room_items.yy",
+    "name": "camera_1",
+    "path": "folders/Спрайты/room_items/camera/camera_1.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"55580b91-fb56-4abf-aeee-546b0652e41e","path":"sprites/spr_camera1/spr_camera1.yy",},},},"Disabled":false,"id":"32097b17-1256-42db-84e4-cfc47927eee3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ccf811fb-a14e-4752-a7d9-24886779d676","path":"sprites/spr_camera1/spr_camera1.yy",},},},"Disabled":false,"id":"c4cb618b-4f87-4b91-ad6b-28880d8c8bb1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

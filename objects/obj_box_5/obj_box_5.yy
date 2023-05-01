@@ -29,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_box_2",
-    "path": "sprites/spr_box_2/spr_box_2.yy",
+    "name": "spr_box_5",
+    "path": "sprites/spr_box_5/spr_box_5.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_box_5",
+    "path": "sprites/spr_box_5/spr_box_5.yy",
+  },
   "visible": true,
 }

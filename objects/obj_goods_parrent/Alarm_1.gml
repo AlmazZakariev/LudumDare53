@@ -11,6 +11,15 @@ if(distance_to_point(box_id.x, box_id.y) <10)
 		case box_2:
 		current_hole = 2;
 		break;
+		case box_3:
+		current_hole = 3;
+		break;
+		case box_4:
+		current_hole = 4;
+		break;
+		case box_5:
+		current_hole = 5;
+		break;
 	}
 	
 	if(hole = current_hole)
@@ -22,7 +31,7 @@ if(distance_to_point(box_id.x, box_id.y) <10)
 	}
 	else
 	{
-		if(current_hole ==global.box_num)
+		if(current_hole ==global.camera_box_num)
 		{
 			//неправильный бокс + палево
 		effect_create_above(0, x + 0, y + 0, 2, $FF0000FF & $ffffff);
