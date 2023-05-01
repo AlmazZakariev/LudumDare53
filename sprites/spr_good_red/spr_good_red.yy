@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_good_red",
-  "bbox_bottom": 197,
+  "bbox_bottom": 168,
   "bbox_left": 0,
-  "bbox_right": 199,
-  "bbox_top": 14,
+  "bbox_right": 169,
+  "bbox_top": 11,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1805e251-d5a0-40e7-bded-a689674da05a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2883d20a-bd12-4ee3-9eed-88d95b38a923",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 200,
+  "height": 170,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"27ae8889-85ca-4da1-9370-b5d4df038702","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b0f3d813-e730-4616-86d1-446a46a26708","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1805e251-d5a0-40e7-bded-a689674da05a","path":"sprites/spr_good_red/spr_good_red.yy",},},},"Disabled":false,"id":"901ff2f9-274d-446a-bdd7-614ad7dd8428","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2883d20a-bd12-4ee3-9eed-88d95b38a923","path":"sprites/spr_good_red/spr_good_red.yy",},},},"Disabled":false,"id":"f023a512-0176-4354-a1bf-b627c1bcc0d9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 200,
+  "width": 170,
 }

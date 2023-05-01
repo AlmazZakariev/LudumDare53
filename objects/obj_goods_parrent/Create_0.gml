@@ -7,3 +7,5 @@ hole = irandom_range(1, 5);
 profit = round(price*0.1);
 stress = irandom_range(1,3) + profit;
 draw_info = false;
+start_x = x;
+start_y = y;

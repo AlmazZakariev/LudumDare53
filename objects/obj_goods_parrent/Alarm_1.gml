@@ -21,13 +21,14 @@ if(distance_to_point(box_id.x, box_id.y) <10)
 		current_hole = 5;
 		break;
 	}
-	
+	action_type=-1;
 	if(hole = current_hole)
 	{
 		//правильный бокс
 		effect_create_above(8, x + 0, y + 0, 1, $FF1499FF & $ffffff);
 		instance_destroy();
 		global.money += profit;
+		action_type = 1;
 	}
 	else
 	{
@@ -37,6 +38,7 @@ if(distance_to_point(box_id.x, box_id.y) <10)
 		effect_create_above(0, x + 0, y + 0, 2, $FF0000FF & $ffffff);
 		instance_destroy();
 		global.stress +=20;
+		action_type = 3;
 		}
 		else
 		{
@@ -45,7 +47,14 @@ if(distance_to_point(box_id.x, box_id.y) <10)
 		instance_destroy();
 		global.money += profit;
 		global.stress += stress;
+		action_type = 2;
 		}
+	}
+	if(box_id.need_to_downscale == false && box_id.downscale_alarm_started = false)
+	{
+	box_id.image_xscale +=0.1;
+	box_id.image_yscale += 0.1;
+	box_id.need_to_downscale = true;
 	}
 	
 

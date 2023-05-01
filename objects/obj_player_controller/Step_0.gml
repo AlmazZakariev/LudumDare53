@@ -59,7 +59,7 @@ else
 	for(k = 0; k<difficulty; k+=1)
 	{
 		var _x = 210+random(30);
-		var _y = 570 + random(40);
+		var _y = 570 + random(35);
 		var _conveyor_part = ds_map_find_value(slots_map, k);
 		var spr_ind = -1;
 		var goods_value = irandom_range(1,5);
@@ -80,7 +80,7 @@ else
 			case 3	:
 			var _obj = obj_good_red;	
 			spr_ind = object_get_sprite(obj_good_red);
-			_y = _y +15;
+			_y = _y +40;
 			_x = _x +20;
 			break;
 			case 4	:
